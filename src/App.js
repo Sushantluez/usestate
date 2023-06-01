@@ -7,6 +7,7 @@ import HomePages from './pages/components/HomePages';
 import About from './pages/About';
 import Pagenotfound from './pages/Pagenotfound';
 import Java from './pages/Java';
+import Mongo from './pages/components/Mongo';
 // import ContactPages from './pages/contactPages';
 // import AboutDetails from './pages/components/AboutDetails';
 
@@ -41,6 +42,7 @@ const App = () => {
 
 
 
+
           {/* <Route path='aboutDetails' element={<AboutDetails />} /> */}
           {/* </Route>
           <Route path='contact' element={<ContactPages />} /> */}
@@ -49,6 +51,8 @@ const App = () => {
 
 
           <Route path='*' element={<Pagenotfound />} />
+
+
 
 
 
